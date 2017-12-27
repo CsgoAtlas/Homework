@@ -1,0 +1,56 @@
+body {
+  background-color: #006FD7;
+}
+.divb {
+  border: solid white 5px;
+  width: 380px;
+  height: 300px;
+  margin: 160px auto;
+  color: white;
+  border-radius: 7px;
+}
+.reg {
+  margin: auto;
+  padding-left: 34%;
+}
+.hem {
+  padding-left: 4%;
+}
+.inem {
+  position: relative;
+  left: 5%;
+  width: 80%;
+}
+.pas {
+  display: inline;
+  position: absolute;
+  top: 44%;
+  left: 37%;
+}
+.inp {
+  position: relative;
+  left: 5%;
+  top: 13%;
+  width: 30%;
+  display: block;
+}
+.hrep {
+  display: inline;
+  position: absolute;
+  left: 50%;
+  top: 44%;
+}
+.inrep {
+  position: absolute;
+  left: 50%;
+  top: 328px;
+  width: 135px;
+}
+button {
+  background-color: gold;
+  width: 10%;
+  height: 5%;
+  position: absolute;
+  top: 60%;
+  left: 43%
+}
