@@ -1,0 +1,33 @@
+div {
+  background-color: green;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 10px;
+}
+.fifth {
+  background-color: #920fa9;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: inline-block;
+
+}
+.six {
+  background-color: grey;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 10px;
+}
+.hr {
+  border-radius: 0px;
+  height: 3px;
+  width: 380px;
+  background-color: grey;
+  position: absolute;
+  top: 43px;
+  right: 70%;
+}
