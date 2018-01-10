@@ -1,0 +1,48 @@
+div {
+  background-color: green;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 10px;
+}
+.fifth {
+  background-color: #920fa9;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: inline-block;
+
+}
+.six {
+  background-color: grey;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 10px;
+}
+.hr {
+  border-radius: 0px;
+  height: 3px;
+  width: 380px;
+  background-color: grey;
+  position: absolute;
+  top: 43px;
+  right: 70%;
+  z-index: -1;
+}
+@keyframes bouncing{
+  0%  { bottom: 0; box-shadow: 0 0 5px rgba(0,0,0,0.5); }
+  100% { bottom: 50px; box-shadow: 0 50px 50px rgba(0,0,0,0.1); }
+}
+.dd {
+  animation: bouncing 0.5s cubic-bezier(0.1,0.25,0.1,1) 0s infinite alternate both;
+}
+
+@media (max-width: 800px) {
+  div {display: block;}
+  .six {display: block;}
+  .fifth {display: block;}
+  .hr { display: inline-block; height: 380px; width: 3px; position: relative; left: 30px; bottom: 1000px;}
+}
