@@ -1,11 +1,15 @@
 html {
-  width: 1440px;
   height: 2458px;
 }
+header {
+  display: flex;
+}
+
 .byc {
   width: 740px;
   height: 506px;
 }
+
 .park {
   width: 572px;
   height: 340px;
@@ -14,4 +18,87 @@ html {
   font-size: 106px;
   font-weight: 900;
   line-height: 102px;
+  display: inline-flex;
+  margin: 0;
+  position: relative;
+  top: 113px;
+}
+
+nav {
+  display: inline-flex;
+  height: 24px;
+  position: relative;
+  right: 390px;
+  top: 50px;
+}
+
+.apr {
+  width: 119px;
+  height: 24px;
+  color: #363c44;
+  font-family: "Proba Pro";
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.buy {
+  width: 94px;
+  height: 24px;
+  color: #363c44;
+  font-family: "Proba Pro";
+  font-size: 20px;
+  font-weight: 400;
+  padding-left: 52px;
+}
+.imag img{
+  position: absolute;
+  top: 698px;
+}
+.imag h3 {
+  font-family: Akrobat;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px;
+  text-transform: uppercase;
+  letter-spacing: 3.6px;
+  display: inline;
+  position: absolute;
+  top: 808px;
+}
+.hs1 {
+  left: 218px;
+  color: #a299d2;
+}
+.hs2 {
+  left: 477px;
+  color: #a299d2;
+}
+.hs3 {
+  left: 734px;
+  color: #a299d2;
+}
+.hs4 {
+  left: 990px;
+  color: #342acd;
+}
+.sq1 {
+  left: 218px;
+}
+.sq2 {
+  left: 477px;
+}
+.sq3 {
+  left: 734px;
+}
+.sq4 {
+  left: 990px;
+}
+@font-face {
+  font-family: Akrobat;
+  src: url(fonts/Akrobat-Black.otf);
+}
+
+@font-face {
+  font-family: Proba Pro;
+  src: url(fonts/probapro-regular.otf);
 }
