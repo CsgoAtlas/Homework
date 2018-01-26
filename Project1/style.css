@@ -1,8 +1,8 @@
-html {
-  height: 2458px;
-}
 header {
   display: flex;
+}
+body {
+  margin: 0;
 }
 
 .byc {
@@ -11,8 +11,6 @@ header {
 }
 
 .park {
-  width: 572px;
-  height: 340px;
   color: #34404e;
   font-family: Akrobat;
   font-size: 106px;
@@ -162,6 +160,7 @@ a {
   left: 220px;
 }
 .bpark {
+  border-radius: 11px;
   width: 486px;
   height: 486px;
   border: 1px solid #dde5ee;
@@ -247,9 +246,109 @@ footer {
   font-family: "Proba Pro";
   font-size: 12px;
   font-weight: 400;
-  position: relative;
-  top: 93px;
-  left: 300px;
+  position: absolute;
+  top: 100px;
+  left: 1050px;
+}
+@media screen and (max-width: 1024px) {
+  .byc {
+    width: 680px;
+    height: 466px;
+  }
+  .park {
+    font-size: 86px;
+    font-weight: 880;
+    line-height: 82px;
+    top: 153px;
+  }
+  nav {
+    display: inline-flex;
+    height: 24px;
+    position: relative;
+    right: 317px;
+    top: 50px;
+  }
+  .sq1, .hs1, .kg{
+    left: 68px;
+  }
+  .sq2, .hs2, .mat {
+    left: 327px;
+  }
+  .sq3, .hs3, .ficha {
+    left: 584px;
+  }
+  .sq4, .hs4, .cost {
+    left: 840px;
+  }
+  .vel, .text {
+    left: 67px;
+  }
+  .bpark {
+    left: 564px;
+    width: 426px;
+    height: 426px;
+  }
+  .vitalya {
+    top: 1626px;
+    left: 47px;
+  }
+  .titleend {
+    top: 1680px;
+    left: 131px;
+  }
+  .sptext {
+    top: 1847px;
+    left: 222px;
+  }
+  .vsh {
+    left: 64px;
+  }
+  .des {
+    left: 124px;
+  }
+  .dvp {
+    left: 100px;
+  }
+  .face {
+    left: 168px;
+  }
+  .copy {
+    top: 143px;
+    left: 50px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .sq1, .hs1, .kg{
+    left: 88px;
+  }
+  .sq2, .hs2, .mat {
+    left: 347px;
+  }
+  .sq3, .hs3, .ficha {
+    left: 604px;
+  }
+  .sq4, .hs4, {
+    left: 860px;
+  }
+  .cost {
+    left: 835px;
+    width: 200px;
+  }
+  .vitalya {
+    top: 1556px;
+    left: 50px;
+    width: 1000px;
+  }
+  .titleend {
+    width: 850px;
+    left: 95px;
+    top: 1610px;
+  }
+  .sptext {
+    width: 600px;
+    left: 270px;
+    top: 1780px;
+  }
 }
 @font-face {
   font-family: Akrobat;
