@@ -373,6 +373,10 @@ footer {
   }
 }
 @media screen and (max-width: 950px) {
+  .byc {
+    width: 740px;
+    height: 506px;
+  }
   .sq1, .hs1, .kg {
     left: 18px;
   }
@@ -435,10 +439,223 @@ footer {
     left: 9px;
   }
   .park {
-    top: 413px;
-    right: 550px;
-    height: 100px;
-    width: 1000px;
+    left: 25px;
+    top: 30px;
+    width: 840px;
+  }
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+  nav {
+    position: absolute;
+    top: 510px;
+    left: 25px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .sq1, .hs1, .kg {
+    left: 38px;
+  }
+  .sq2, .hs2, .mat {
+    left: 257px;
+  }
+  .sq3, .hs3, .ficha {
+    left: 477px;
+  }
+  .sq4, .hs4, .cost {
+    left: 695px;
+  }
+  .vel {
+    left: 17px;
+  }
+  .text {
+    left: 20px;
+  }
+  .bpark {
+    left: 430px;
+    top: 1150px;
+    width: 396px;
+    height: 396px;
+  }
+  .vitalya {
+    top: 1576px;
+    left:40px;
+  }
+  .titleend {
+    font-size: 40px;
+    top: 1620px;
+    left: 110px;
+  }
+  .sptext {
+    top: 1787px;
+    left:142px;
+  }
+  .dvp {
+    left: 58px;
+  }
+  .face {
+    left: 145px;
+  }
+  .vsh {
+    left: 0px;
+  }
+  .des {
+    left: 60px;
+  }
+  .vth {
+    top: 95px;
+    left: -40px;
+  }
+  .avt {
+    left: 10px;
+  }
+  .copy {
+    left: 9px;
+  }
+  .park {
+    left: 25px;
+    top: 30px;
+    width: 800px;
+    font-size: 80px;
+  }
+  .kg, .mat, .ficha, .cost {
+    margin-top: 10px;
+  }
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+  nav {
+    position: absolute;
+    top: 510px;
+    left: 25px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .park {
+    font-size: 70px;
+    width: 700px;
+  }
+  .vel {
+    left: 230px;
+    top: 900px;
+  }
+  .text {
+    left: 230px;
+    top: 1040px;
+  }
+  .bpark {
+    left: 230px;
+    top: 1250px;
+  }
+  .vitalya {
+    top: 1676px;
+    left: 20px;
+  }
+  .titleend {
+    top: 1720px;
+    left: 80px;
+  }
+  .sptext {
+      top: 1887px;
+      left: 150px;
+  }
+  .face {
+    left: 75px;
+  }
+  .dvp {
+    left: 10px;
+  }
+  .sq1, .hs1, .kg {
+    left: 8px;
+  }
+  .sq2, .hs2, .mat {
+    left: 227px;
+  }
+  .sq3, .hs3, .ficha {
+    left: 447px;
+  }
+  .sq4, .hs4, .cost {
+    left: 665px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .byc {
+    width: 740px;
+  }
+  .sq1, .hs1, .kg {
+    left: 8px;
+    width: 90px;
+  }
+  .sq2, .hs2, .mat {
+    left: 197px;
+    width: 90px;
+  }
+  .sq3, .hs3, .ficha {
+    left: 417px;
+    width: 90px;
+  }
+  .sq4, .hs4, .cost {
+    left: 635px;
+    width: 90px;
+  }
+  .imag p {
+    top: 820px;
+    font-size: 30px;
+  }
+  .imag h3 {
+    top: 780px;
+    font-size: 17px;
+  }
+  .vel, .text, .bpark {
+    left: 200px;
+  }
+  .vitalya {
+    font-size: 35px;
+    line-height: 45px;
+    width: 680px;
+  }
+  .titleend {
+    font-size: 35px;
+    line-height: 45px;
+  }
+  .sptext {
+    font-size: 20px;
+    top: 1850px;
+    left: 100px;
+  }
+  .face {
+    top: 10px;
+    left: 190px;
+  }
+  .dvp {
+    left: 120px;
+    top: 80px;
+    margin: 0;
+    height: 60px;
+    width: 150px;
+    display: inline-block;
+  }
+  .des {
+    top: 13px;
+    left: 100px;
+  }
+  .vsh {
+    width: 100px;
+    margin: 0;
+    top: 80px;
+    left: 40px;
+    display: inline-block;
+  }
+  .avt {
+    top: 17px;
+  }
+  .vth {
+    top: 80px;
+    display: inline-block;
+    margin: 0;
+    width: 90px;
   }
 }
 @font-face {
